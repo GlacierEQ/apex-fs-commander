@@ -1,0 +1,13 @@
+{
+  "project": {
+    "enabled": true,
+    "lastGenerated": "2026-05-11T02:34:55.175Z",
+    "observationCount": 147,
+    "skillCount": 0,
+    "domain": "project",
+    "triggerGlobs": [
+      "**/*"
+    ],
+    "description": "Project for apex-fs-commander. 35 gotchas, 88 conventions, 5 fixes."
+  }
+}

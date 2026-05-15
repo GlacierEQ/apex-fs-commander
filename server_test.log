@@ -1,0 +1,28 @@
+2026-05-08 04:01:50,815 - ApexDropboxConnector - WARNING - dropbox python SDK not installed. Falling back to REST or failing gracefully.
+2026-05-08 04:01:50,815 | WARNING | dropbox python SDK not installed. Falling back to REST or failing gracefully.
+2026-05-08 04:02:02,012 | WARNING | Python-dotenv could not parse statement starting at line 106
+
+============================================================
+  APEX HTTP API SERVER
+  Case: 1FDV-23-0001009
+============================================================
+
+  🚀 Server starting on http://0.0.0.0:5000
+  Auth: configured (set SMITHERY_API_KEY or APEX_HTTP_API_KEY)
+
+  Endpoints:
+    GET  /           - Health check
+    GET  /status     - Full status
+    POST /onedrive/* - OneDrive operations
+    POST /memory/*   - Memory operations
+    POST /github/*   - GitHub operations
+
+============================================================
+
+ * Serving Flask app 'apex_http_server'
+ * Debug mode: off
+2026-05-08 04:02:02,217 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.120:5000
+2026-05-08 04:02:02,217 | INFO | [33mPress CTRL+C to quit[0m

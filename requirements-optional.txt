@@ -1,0 +1,29 @@
+# ============================================================
+# APEX OPTIONAL / HEAVY DEPS — install only when feature needed
+# Voice, NLP, ML inference, Microsoft Graph
+# DO NOT install by default — they are GBs of payload
+# ============================================================
+
+# ML/NLP (install: pip install -r requirements-optional.txt)
+torch==2.1.2
+transformers==4.37.2
+spacy==3.7.2
+nltk==3.8.1
+scipy==1.11.4
+
+# Voice I/O
+SpeechRecognition==3.10.0
+pyttsx3==2.90
+whisperx==3.1.1
+faster-whisper==0.10.0
+
+# Microsoft Graph (requires proper MSAL auth setup)
+msal==1.26.0
+# Note: msgraph-sdk replaces the broken 'msft-graph' package
+msgraph-sdk==1.0.0
+
+# Salesforce (use simple-salesforce, NOT the broken 'salesforce' package)
+simple-salesforce==1.12.5
+
+# Advanced CLI
+prompt_toolkit==3.0.43

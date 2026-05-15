@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "apex-shell": {
+      "command": "python3",
+      "args": [
+        "/Users/casey/apex-fs-commander/servers/apex_shell_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/casey/apex-fs-commander"
+      }
+    }
+  }
+}

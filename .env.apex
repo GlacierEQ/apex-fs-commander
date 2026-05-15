@@ -1,0 +1,16 @@
+# APEX local environment template.
+# Copy to an untracked local env file and fill values from your password manager.
+
+GITHUB_TOKEN=
+GITHUB_USERNAME=GlacierEQ
+MEMORY_AUTH_TOKEN=
+SUPERMEMORY_API_KEY=
+NOTION_API_KEY=
+OPENAI_API_KEY=
+ANTHROPIC_API_KEY=
+MICROSOFT_GRAPH_TOKEN=
+SMITHERY_API_KEY=24df7154-7fc0-4764-9cf9-956749c0ae11
+APEX_HTTP_API_KEY=
+APEX_API_TOKEN=
+ENVIRONMENT=production
+LOG_LEVEL=INFO

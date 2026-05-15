@@ -1,0 +1,122 @@
+{
+  "mcpServers": {
+    "apex-shell": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_shell_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander",
+        "APEX_ALLOW_SHELL": "1"
+      }
+    },
+    "apex-terminal": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_terminal_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-master": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_master_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-universal": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_universal_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-spiral": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_spiral_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-stealth-diamond": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_stealth_diamond_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-audio-processor": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_audio_processor_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-evidence": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_evidence_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-github": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_github_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-jefs-scraper": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_jefs_scraper_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-notion": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_notion_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-case-intelligence": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_case_intelligence_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    },
+    "apex-primordial-terminal": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/primordial_terminal_mcp.py"
+      ],
+      "env": {
+        "REPO_ROOT": "/Users/macarena1/dev/projects/apex-fs-commander"
+      }
+    }
+  }
+}

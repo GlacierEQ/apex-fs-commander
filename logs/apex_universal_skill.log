@@ -1,0 +1,36 @@
+2026-05-13 13:53:46,526 [INFO] APEX.UniversalSkill: Loaded 13 servers from default manifest
+2026-05-13 13:53:49,307 [INFO] APEX.UniversalSkill: No sudo access — sandbox detected
+2026-05-13 13:53:50,932 [INFO] APEX.UniversalSkill: Loaded 13 servers from default manifest
+2026-05-13 13:53:52,823 [INFO] APEX.UniversalSkill: No sudo access — sandbox detected
+2026-05-13 13:53:57,804 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-shell' — using direct invocation
+2026-05-13 13:53:57,805 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-terminal' — using direct invocation
+2026-05-13 13:53:57,805 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-master' — using direct invocation
+2026-05-13 13:53:57,805 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-universal' — using direct invocation
+2026-05-13 13:53:57,806 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-spiral' — using direct invocation
+2026-05-13 13:53:57,806 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-stealth-diamond' — using direct invocation
+2026-05-13 13:53:57,806 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-audio-processor' — using direct invocation
+2026-05-13 13:53:57,807 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-evidence' — using direct invocation
+2026-05-13 13:53:57,807 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-github' — using direct invocation
+2026-05-13 13:53:57,807 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-jefs-scraper' — using direct invocation
+2026-05-13 13:53:57,808 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-notion' — using direct invocation
+2026-05-13 13:53:57,808 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-case-intelligence' — using direct invocation
+2026-05-13 13:53:57,808 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-primordial-terminal' — using direct invocation
+2026-05-13 14:06:33,707 [INFO] APEX.UniversalSkill: Loaded 13 servers from default manifest
+2026-05-13 14:06:35,755 [INFO] APEX.UniversalSkill: No sudo access — sandbox detected
+2026-05-13 14:06:36,859 [INFO] APEX.UniversalSkill: Sandbox detected for 'general' — using direct invocation
+2026-05-13 15:12:47,732 [INFO] APEX.UniversalSkill: Loaded 13 servers from default manifest
+2026-05-13 15:12:52,066 [INFO] APEX.UniversalSkill: Loaded 13 servers from default manifest
+2026-05-13 15:12:52,958 [INFO] APEX.UniversalSkill: No sudo access — sandbox detected
+2026-05-13 15:12:54,546 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-shell' — using direct invocation
+2026-05-13 15:12:54,549 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-terminal' — using direct invocation
+2026-05-13 15:12:54,549 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-master' — using direct invocation
+2026-05-13 15:12:54,550 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-universal' — using direct invocation
+2026-05-13 15:12:54,551 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-spiral' — using direct invocation
+2026-05-13 15:12:54,551 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-stealth-diamond' — using direct invocation
+2026-05-13 15:12:54,552 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-audio-processor' — using direct invocation
+2026-05-13 15:12:54,553 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-evidence' — using direct invocation
+2026-05-13 15:12:54,553 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-github' — using direct invocation
+2026-05-13 15:12:54,554 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-jefs-scraper' — using direct invocation
+2026-05-13 15:12:54,555 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-notion' — using direct invocation
+2026-05-13 15:12:54,555 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-case-intelligence' — using direct invocation
+2026-05-13 15:12:54,556 [INFO] APEX.UniversalSkill: Sandbox detected for 'apex-primordial-terminal' — using direct invocation

@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "brainsync": {
+      "command": "node",
+      "args": [
+        "/Users/macarena1/.antigravity/extensions/dawoodahmad.brainsync-3.0.12-universal/dist/mcp-server.js"
+      ],
+      "type": "stdio",
+      "env": {
+        "BRAINSYNC_ENV_FILE": "/Users/macarena1/.bsync_core/apex-fs-commander/mcp-secret-env.json"
+      }
+    }
+  }
+}

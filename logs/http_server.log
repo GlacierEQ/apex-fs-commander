@@ -1,0 +1,40 @@
+
+============================================================
+  APEX HTTP API SERVER
+  Case: 1FDV-23-0001009
+============================================================
+
+  🚀 Server starting on http://0.0.0.0:5000
+  Auth: configured (set SMITHERY_API_KEY or APEX_HTTP_API_KEY)
+
+  Endpoints:
+    GET  /           - Health check
+    GET  /status     - Full status
+    POST /onedrive/* - OneDrive operations
+    POST /memory/*   - Memory operations
+    POST /github/*   - GitHub operations
+
+============================================================
+
+ * Serving Flask app 'apex_http_server'
+ * Debug mode: off
+2026-05-14 00:33:06,907 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.111:5000
+2026-05-14 00:33:06,951 | INFO | [33mPress CTRL+C to quit[0m
+2026-05-14 00:36:24,325 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/macarena1/dev/projects/apex-fs-commander/.venv/lib/python3.12/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macarena1/dev/projects/apex-fs-commander/.venv/lib/python3.12/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macarena1/dev/projects/apex-fs-commander/.venv/lib/python3.12/site-packages/flask/app.py", line 892, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macarena1/dev/projects/apex-fs-commander/.venv/lib/python3.12/site-packages/flask/app.py", line 1164, in make_response
+    raise TypeError(
+TypeError: The view function for 'root' did not return a valid response. The function either returned None or ended without a return statement.
+2026-05-14 00:36:25,600 | INFO | 127.0.0.1 - - [14/May/2026 00:36:25] "[35m[1mGET / HTTP/1.1[0m" 500 -

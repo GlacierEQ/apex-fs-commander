@@ -1,0 +1,20 @@
+# MindSync Configuration (Thin Client Mode)
+version: 1
+
+mcp:
+  transport: "http"
+  http:
+    port: 3101
+    host: "127.0.0.1"
+
+context_files:
+  auto_sync: true
+  targets:
+    - type: "agent-md"
+      path: "GEMINI.md"
+    - type: "claude-md"
+      path: "CLAUDE.md"
+    - type: "cursorrules"
+      path: ".cursorrules"
+    - type: "windsurf"
+      path: ".windsurfrules"

@@ -1,0 +1,60 @@
+{
+  "mcpServers": {
+    "brainsync": {
+      "command": "node",
+      "args": [
+        "/Users/macarena1/.antigravity/extensions/dawoodahmad.brainsync-3.0.12-universal/dist/mcp-server.js"
+      ],
+      "env": {
+        "BRAINSYNC_ENV_FILE": "/Users/macarena1/.bsync_core/apex-fs-commander/mcp-secret-env.json"
+      }
+    },
+    "apex-master": {
+      "command": "/Users/macarena1/dev/projects/apex-fs-commander/.venv/bin/python",
+      "args": [
+        "/Users/macarena1/dev/projects/apex-fs-commander/servers/apex_master_mcp.py"
+      ],
+      "env": {
+        "APEX_ALLOW_SHELL": "1"
+      }
+    },
+    "memoryplugin": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@memoryplugin/mcp-server"
+      ],
+      "env": {
+        "MEMORY_PLUGIN_TOKEN": "yD4IKCdlI0VCXlfD4xLT1x5D0dEU9Hd1"
+      }
+    },
+    "desktop-commander": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@wonderwhy-er/desktop-commander@latest"
+      ],
+      "env": {}
+    },
+    "clickup": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@nazruden/clickup-server"
+      ],
+      "env": {
+        "CLICKUP_PERSONAL_TOKEN": "SBsfQwDSXeRCmGDq",
+        "CLICKUP_API_KEY": "SBsfQwDSXeRCmGDq",
+        "CLICKUP_CLIENT_ID": "1NA4G6NDQKA6Q2CBK0TWP2I3JUM5G8PB",
+        "CLICKUP_CLIENT_SECRET": "UXJURAOV6B91XD8MJG0RGVI4D8LZQFTTE1ZZRXJ2OH936"
+      }
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    }
+  }
+}
